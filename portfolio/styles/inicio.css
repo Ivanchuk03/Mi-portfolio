@@ -1,0 +1,54 @@
+.inicio_container{
+    background-color: rgb(21, 21, 53);
+    width: 100vw;
+}
+
+.grid_container{
+    padding: 9rem 0 3rem 10rem;
+    display: grid;
+    grid-template-columns : 1fr 1fr 2fr;
+    grid-template-rows    : 1fr 1fr 2fr; 
+    grid-template-areas: 
+    "titulo titulo foto "
+    "subtitulo subtitulo foto "
+    "p p foto "
+    ;
+    column-gap: 8rem;
+
+}
+
+/*
+    grid-template-columns : 2fr 2fr 2fr;
+    grid-template-rows    : 2fr 2fr; 
+    grid-template-areas: 
+    "titulo titulo foto foto"
+    "p p foto foto"
+    ;
+*/
+
+
+.titulo{
+   color: white;
+   font-size: 58.5px;
+   font-family: "Montserrat";
+   text-align: center;
+   grid-area: titulo;
+ 
+}
+.subtitulo{
+    font-family: cursive;
+    font-size: 1.5rem;
+    grid-area: subtitulo;
+}
+
+.foto{
+   grid-area: foto;
+   width: 400px;
+}
+
+.presentacion{
+    font-family: Montserrat;
+    font-size: 1rem;
+    color: white;
+    grid-area: p;
+}

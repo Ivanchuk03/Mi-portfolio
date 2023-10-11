@@ -1,0 +1,17 @@
+/*Este color tambien esta lindo   background-color: rgb(135, 127, 127);*/
+
+.header_container{
+  display: flex;
+  justify-content: space-between;
+  background-color: #374151;
+  width: 100vw;
+  height: 6rem;
+  margin: 0;
+  position: fixed;
+  top: 0;
+
+}
+.logo{
+  margin: 5px 0 5px 3rem;
+  
+}

@@ -1,0 +1,46 @@
+.navbar_container{
+  width: 800px;
+}
+
+ul{
+    display: flex;
+    margin-top: 2rem;
+    margin-right: 2rem;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0;
+    height: 50px;
+
+}
+
+
+li{
+  list-style: none;
+  overflow-y: hidden;
+ 
+}
+
+
+.navbar_container ul li a{
+  font-family: "Montserrat";
+  font-size: 1.375rem;
+  color: white;
+  text-decoration: none;
+  padding: 1rem;
+
+
+}
+
+.navbar_container ul li a:hover{
+  background-color: #3B82F6;
+ 
+    color: black;
+    cursor: pointer;   
+  }
+
+.addBackgroundColorToLi{
+  background-color: #3B82F6;
+  color: black;
+  border-radius: 0.5rem;
+
+}  

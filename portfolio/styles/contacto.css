@@ -1,0 +1,66 @@
+.contacto_container{
+    background-color: black;
+    width: 100vw;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    padding: 3rem 0 3rem 0;
+}
+h2{
+   font-size: 3rem;
+   font-family: "Montserrat";
+   text-align: center; 
+}
+.social_media{
+    display: flex;
+    column-gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0 0 0.2rem;
+}
+div{
+    color: white;
+}
+.github{
+    background-color: white;
+    height: 66px;
+    display: flex;
+    align-items: center; 
+}
+
+.gmail{
+    background-color: white;
+    height: 66px;
+    display: flex;
+    align-items: center;
+}
+.linkedin{
+    height: 67px;
+    overflow-y: hidden;
+    background-color: blue;
+    
+
+}
+
+.descargar_cv{
+    background-color: #0cb7f2;
+    border-radius: 5px;
+    height: 66px;
+    width: 220px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 1rem;
+}
+
+.descargar_cv a{
+   
+    color: black;
+    text-decoration: none;
+}
+
+.descargar_cv a:hover{
+    color: blue;
+}

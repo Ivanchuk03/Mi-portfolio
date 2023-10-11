@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url(./assets/font/Montserrat-VariableFont_wght.ttf);
+}
+
+*{
+  font-family: "Montserrat";
+  margin: 0;
+  /*Iván: Esto lo agrego para que no haya barra de desplazamiento horizontal:*/
+  overflow-x: hidden;
+}
+
